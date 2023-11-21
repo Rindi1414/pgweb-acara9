@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="initial-scale=1,userscalable=no,maximum-scale=1,width=device-width" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="author" content="DIVSIG UGM" />
+<meta name="description" content="leaflet basic" />
+<link rel="stylesheet" href="/path/to/leaflet.css" />
     <title>Leaflet Map</title>
 
     <link
@@ -34,6 +41,18 @@
       #map {
         height: 100vh;
       }
+      <!--Botstrap-->
+<!-- CSS only -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.mi
+n.css" rel="stylesheet" integrity="sha384-
+Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+crossorigin="anonymous" />
+
+<link rel="stylesheet" href="assets/plugins/leaflet-routing-machine3.2.12/leaflet-routing-machine-3.2.12/dist/leaflet-routing-machine.css"
+/>
+<link rel="stylesheet" href="index.css" />
+<style>
       /* Background pada Judul */
       *.info {
         padding: 6px 8px;
@@ -52,6 +71,9 @@
   </head>
 
   <body>
+  <div class="alert alert-info">
+      <strong>WEBGIS</strong> by Rindi Tri Setyaningsih
+    </div>
     <div id="map"></div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
